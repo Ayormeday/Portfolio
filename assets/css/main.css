@@ -3048,7 +3048,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
-			-ms-flex: 1;
+			/* -ms-flex: 1; */
 		}
 
 			.spotlights > section > .content > .inner {
@@ -3914,6 +3914,16 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#try {
+		background-image: url("../../images/wallet.png"); 
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	#space {
+		margin-right: 20%
+	}
+
 	#about {
 		object-fit: cover;
 		width: 100%; 
@@ -3921,4 +3931,12 @@ input, select, textarea {
 
 		border-radius: 20%;
 	
+	}
+	#contributions {
+		text-align: center;
+	
+		padding-bottom: 5%;
+	}
+	#deco {
+		text-decoration: none;
 	}
