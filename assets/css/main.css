@@ -3932,17 +3932,6 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 	}
-	@media screen and (max-width: 418px) {
-		.grid-container {
-			display: inline;
-			text-align: center;
-		}
-		.grid {
-			display: inline;
-			text-align: center;
-	
-		}
-	}
 
 	#about {
 		object-fit: cover;
@@ -3959,4 +3948,21 @@ input, select, textarea {
 	}
 	#deco {
 		text-decoration: none;
+	}
+
+	@media screen and (max-width: 418px) {
+		.grid-container {
+			display: inline;
+			text-align: center;
+		}
+		.grid {
+			display: inline;
+			text-align: center;
+	
+		}
+	}
+	@media screen and (max-width: 705px) {
+		#cont {
+		    width: 98%;
+		}
 	}
