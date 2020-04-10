@@ -3907,18 +3907,18 @@ input, select, textarea {
 			}
 
 		}
-	#intro {
+	/* #intro {
+		text-align: center;
+	} */
+	#menu-footer {
 		text-align: center;
 	}
 
-
-
-	/* .flex {
-		display: flex;
-		justify-content: space-between;
-	} */
-	/* .topimg {
-		width: 40%; 
+	#about {
+		object-fit: cover;
+		width: 100%; 
 		height: auto; 
-		
-	} */
+
+		border-radius: 20%;
+	
+	}
