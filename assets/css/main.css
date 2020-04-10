@@ -3923,6 +3923,26 @@ input, select, textarea {
 	#space {
 		margin-right: 20%
 	}
+	.grid-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.grid {
+		display: flex;
+		flex-direction: column;
+	}
+	@media screen and (max-width: 418px) {
+		.grid-container {
+			display: inline;
+			text-align: center;
+		}
+		.grid {
+			display: inline;
+			text-align: center;
+	
+		}
+	}
 
 	#about {
 		object-fit: cover;
