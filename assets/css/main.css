@@ -3949,6 +3949,21 @@ input, select, textarea {
 	#deco {
 		text-decoration: none;
 	}
+	#anchor {
+		border: 0;
+		margin-left: -100px;
+
+	}
+	#img {
+		height: auto;
+		width: 30%;
+		
+	
+	}
+	#nav {
+		display: flex;
+		justify-content: space-between;
+	}
 
 	@media screen and (max-width: 418px) {
 		.grid-container {
@@ -3960,9 +3975,22 @@ input, select, textarea {
 			text-align: center;
 	
 		}
+		#img {
+			height: auto;
+			width: 25%;
+			padding-top: 10px;
+		}
+		#anchor {
+			margin-left: 0;
+		}
 	}
 	@media screen and (max-width: 705px) {
 		#cont {
 		    width: 98%;
 		}
+	}
+	@media screen and (max-width: 320px) {
+	   #anchor {
+		   width: 50%
+	   }
 	}
