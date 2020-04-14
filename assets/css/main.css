@@ -3970,7 +3970,14 @@ input, select, textarea {
 	/* ul {
 		color: white;
 	} */
-
+    #landing {
+		border : 0;
+		margin-left: 10px;
+		
+	}
+	#lad {
+		width: 5%;
+	}
 
 	@media screen and (max-width: 418px) {
 		.grid-container {
