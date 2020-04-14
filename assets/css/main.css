@@ -3921,7 +3921,12 @@ input, select, textarea {
 	}
 
 	#space {
-		margin-right: 20%
+		margin-right: 20%;
+		margin-left: -30%;
+		border: 0;
+	}
+	#asrc {
+		border: 0;
 	}
 	.grid-container {
 		display: flex;
@@ -3978,6 +3983,28 @@ input, select, textarea {
 	#lad {
 		width: 5%;
 	}
+	.wall {
+		margin-left: -100px;
+		border: 0;
+	}
+	.wallet {
+		width: 150%;
+		/* height: auto; */
+	}
+	.features h3 {
+		margin-left: -100px;
+		margin-top: -40px;
+	}
+	.features p {
+		margin-left: -100px;
+		font-size: 100%;
+	}
+	#tre {
+		height: 12.5rem;
+	}
+	#dad {
+		height: 13.2rem;
+	}
 
 	@media screen and (max-width: 418px) {
 		.grid-container {
@@ -3997,14 +4024,115 @@ input, select, textarea {
 		#anchor {
 			margin-left: 0;
 		}
+		.wallet {
+			margin-left: 30px;
+		}
+	
+	    #tag {
+			margin-left: 0;
+		}
+		#tag2 {
+			margin-left: 0;
+		}
+		#tag3 {
+			margin-left: 0;
+		}
+		#tag4 {
+			margin-left: 0;
+		}
+		#para4 {
+			margin-left: 0;
+		}
+		#para4p {
+			margin-left: 0;
+		}
+		#para1 {
+			margin-left: 0;
+		}
+		#para1p {
+			margin-left: 0;
+		}
+		#para2 {
+			margin-left: 0;
+		}
+		#para2p {
+			margin-left: 0;
+		}
+		#para3 {
+			margin-left: 0;
+		}
+		#para3p {
+			margin-left: 0;
+		}
 	}
 	@media screen and (max-width: 705px) {
 		#cont {
 		    width: 98%;
+		}
+		.wall {
+			margin-left: -30px;
+			height: auto;
+		}
+		.wallet {
+			width: 100%;
+			height: auto;
+		}
+		.features h3 {
+			margin-left: -30px;
+			margin-top: -10px;
+			margin-bottom: 10px;
+		}
+		.features p {
+			margin-left: -30px;
+			font-size: 100%;
+		}
+		#space {
+			margin-right: 20%;
+			margin-left: 18%;
+		
+		}
+		#tre {
+			height: 100%;
+		}
+		#dad {
+			height: 100%;
 		}
 	}
 	@media screen and (max-width: 320px) {
 	   #anchor {
 		   width: 50%
 	   }
+	}
+	@media screen and (max-width: 768px) {
+		#cont {
+		    width: 98%;
+		}
+		.wall {
+			margin-left: -30px;
+			height: auto;
+		}
+		.wallet {
+			width: 100%;
+			height: auto;
+		}
+		.features h3 {
+			margin-left: -30px;
+			margin-top: -10px;
+			margin-bottom: 10px;
+		}
+		.features p {
+			margin-left: -30px;
+			font-size: 100%;
+		}
+		#space {
+			margin-right: 20%;
+			margin-left: 18%;
+		
+		}
+		#tre {
+			height: 100%;
+		}
+		#dad {
+			height: 100%;
+		}
 	}
