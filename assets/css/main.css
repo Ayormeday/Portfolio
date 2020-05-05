@@ -3500,6 +3500,10 @@ p {
 }
 
 @media screen and (max-width: 418px) {
+	#anchor {
+		border: 0;
+		margin-left: 0;
+	}
 	.grid-container {
 		display: inline;
 		text-align: center;
